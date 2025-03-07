@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1e2a47;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #1e2a47;
+}
+
+h3 {
+    color: #4d6c8c;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: url('energy-background.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta {
+    background-color: #4d6c8c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #3b4f6c;
+}
+
+/* Services Section */
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 1.8em;
+}
+
+.service p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4d6c8c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #3b4f6c;
+}
+
+/* Footer */
+footer {
+    background-color: #1e2a47;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
