@@ -1,12 +1,14 @@
+// Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function() {
-    // Function to load HTML content into a specified element
+
+    // Function to load content into a specific section
     function loadSection(sectionId, fileName) {
         fetch(fileName)
-            .then(response => response.text())
+            .then(response => response.text())  // Get the content of the HTML file
             .then(data => {
-                document.getElementById(sectionId).innerHTML = data;
+                document.getElementById(sectionId).innerHTML = data;  // Insert it into the corresponding section
             })
-            .catch(error => console.error('Error loading section:', error));
+            .catch(error => console.error('Error loading section:', error));  // Handle any errors
     }
 
     // Load each section
