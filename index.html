@@ -3,35 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Ecopower Consulting</title>
+    <title>Ecopower Consulting</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-    <div class="menu-container">
-        <button class="hamburger-menu" id="menu-toggle">
-            ☰
-        </button>
-        <nav class="nav-links" id="nav-menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        <nav class="navbar">
+            <div class="logo">Ecopower Consulting</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </div>
-</header>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Expert Energy Market Consulting</h1>
+                <p>Advising on energy markets, PPA development, and risk management with deep industry expertise.</p>
+                <a href="#contact" class="cta">Get in Touch</a>
+            </div>
+        </section>
+    </header>
     
-    <section id="hero">
-        <h1>Welcome to Ecopower Consulting</h1>
-        <p>Your trusted partner in energy market analysis and strategy.</p>
-        <a href="contact.html">Get in Touch</a>
-    </section>
-
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Who We Are</h2>
+                <p>Ecopower Consulting provides expert guidance in energy market analysis, power trading strategies, and regulatory affairs.</p>
+            </div>
+        </section>
+        
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <h3>Energy Market Analysis</h3>
+                        <p>Data-driven insights to optimize energy market performance.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>PPA Development & Negotiation</h3>
+                        <p>Strategic guidance for power purchase agreements.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Regulatory Affairs</h3>
+                        <p>Ensuring compliance and navigating energy regulations.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Power Trading & Risk Management</h3>
+                        <p>Strategies to mitigate risks and maximize returns.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="insights" class="insights">
+            <div class="container">
+                <h2>Latest Insights</h2>
+                <p>Stay updated with expert market analysis, trends, and regulatory developments.</p>
+            </div>
+        </section>
+    </main>
+    
     <footer>
-        <p>&copy; 2025 Ecopower Consulting. All rights reserved.</p>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p><strong>Email:</strong> info@ecopowerconsulting.gr</p>
+                <p><strong>Phone:</strong> +30 210 1234567</p>
+            </div>
+        </section>
+        <p class="footer-text">&copy; 2025 Ecopower Consulting. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
