@@ -11,41 +11,25 @@
     <header>
         <h1>Welcome to Ecopower Consulting</h1>
         <p>Expert insights into energy markets, PPAs, regulatory affairs, and power trading strategy.</p>
+        <?php include 'header.php'; ?>
     </header>
     
     <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Energy Market Analysis</li>
-            <li>PPA Development & Negotiations</li>
-            <li>Regulatory Affairs</li>
-            <li>Power Trading Strategy & Risk Management</li>
-        </ul>
+        <?php include 'services.php'; ?>
     </section>
     
     <section id="about">
-        <h2>About Us</h2>
-        <p>Ecopower Consulting is dedicated to delivering strategic guidance and market intelligence in the energy sector. With years of expertise in procurement, trading, and regulatory affairs, we help businesses optimize their energy strategies for a sustainable and profitable future.</p>
+        <?php include 'about.php'; ?>
     </section>
     
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>We'd love to hear from you. Get in touch for expert advice and tailored solutions.</p>
-        <form action="contact-form-handler.php" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <?php include 'contact.php'; ?>
     </section>
     
     <footer>
-        <p>&copy; 2025 Ecopower Consulting. All rights reserved.</p>
-        <p>Follow us on <a href="#">LinkedIn</a></p>
+        <?php include 'footer.php'; ?>
     </footer>
 </body>
 </html>
+
 
