@@ -9,24 +9,58 @@
 </head>
 <body>
     <header>
-        <h1>Ecopower Consulting</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <img src="images/header-energy.jpg" alt="Energy Market" class="header-img">
+        <h1>Welcome to Ecopower Consulting</h1>
+        <p>Expert insights into energy markets, PPAs, regulatory affairs, and power trading strategy.</p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
     </header>
-
-    <section id="home">
-        <h2>Welcome to Ecopower Consulting</h2>
-        <p>Your trusted partner in energy market analysis, PPA development, and power trading strategies.</p>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="images/market-analysis.jpg" alt="Energy Market Analysis">
+            <h3>Energy Market Analysis</h3>
+            <p>Comprehensive research and insights to help you navigate the complexities of energy markets.</p>
+        </div>
+        <div class="service">
+            <img src="images/ppa-development.jpg" alt="PPA Development">
+            <h3>PPA Development & Negotiations</h3>
+            <p>Structuring and negotiating Power Purchase Agreements for optimal financial and operational outcomes.</p>
+        </div>
+        <div class="service">
+            <img src="images/regulatory-affairs.jpg" alt="Regulatory Affairs">
+            <h3>Regulatory Affairs</h3>
+            <p>Advising on compliance and policy changes to mitigate risks and seize opportunities.</p>
+        </div>
+        <div class="service">
+            <img src="images/trading-strategy.jpg" alt="Power Trading Strategy">
+            <h3>Power Trading Strategy & Risk Management</h3>
+            <p>Developing strategies to optimize trading portfolios and manage energy price risks effectively.</p>
+        </div>
     </section>
-
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Ecopower Consulting is dedicated to delivering strategic guidance and market intelligence in the energy sector. With years of expertise in procurement, trading, and regulatory affairs, we help businesses optimize their energy strategies for a sustainable and profitable future.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you. Get in touch for expert advice and tailored solutions.</p>
+        <form action="contact-form-handler.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
     <footer>
         <p>&copy; 2025 Ecopower Consulting. All rights reserved.</p>
+        <p>Follow us on <a href="#">LinkedIn</a></p>
     </footer>
 </body>
 </html>
