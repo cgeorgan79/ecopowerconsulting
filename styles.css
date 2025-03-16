@@ -92,7 +92,6 @@ nav ul li a {
 .service-content {
     display: flex;
     align-items: flex-start; /* Aligns items to the top */
-    flex-direction: column; /* Ensures the text is above the image */
     gap: 20px; /* Adds space between the image and the text */
     flex-wrap: wrap; /* Allows the content to wrap on smaller screens */
 }
