@@ -89,9 +89,33 @@ nav ul li a {
     justify-content: space-between; /* Ensures text aligns properly */
     height: 100%;
 }
+.service-content {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    gap: 20px; /* Adds space between the image and the text */
+    flex-wrap: wrap; /* Allows the content to wrap on smaller screens */
+}
 
+.ppa-image {
+    width: 40%; /* Adjust the width as needed */
+    height: auto;
+    max-width: 400px; /* Optional: set a maximum size for the image */
+    border-radius: 8px;
+}
+
+.ppa-text {
+    width: 60%; /* Takes up the remaining space next to the image */
+    text-align: left; /* Aligns text to the left */
+}
 /* Responsive Design */
 @media (max-width: 768px) {
+    .service-content {
+        flex-direction: column; /* Stacks the image and text on smaller screens */
+        align-items: center;
+    }
+    .ppa-image, .ppa-text {
+        width: 100%; /* Makes both image and text take full width on smaller screens */
+    }
     .service-grid {
         grid-template-columns: 1fr; /* Switch to single column on small screens */
     }
