@@ -68,6 +68,11 @@ nav ul li a {
     height: auto;
     border-radius: 8px;
 }
+/* Specific styles for Regulatory Affairs image */
+.regulatory-affairs-image {
+    max-width: 400px; /* Sets a larger max width for the Regulatory Affairs image */
+    max-height: 400px; /* Sets a larger max height */
+}
 
 .service-item img {
     width: 100%; /* Makes the image fill the container */
