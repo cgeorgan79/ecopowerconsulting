@@ -53,6 +53,15 @@ nav ul li a {
             color: #4B0082;
             font-weight: bold;
         }
+.service p {
+    text-align: center; /* Centers text */
+    margin: 10px 0; /* Adds some spacing */
+}
+.service img {
+    width: 50%; /* Keeps images proportional */
+    height: auto;
+    border-radius: 8px;
+}
 .service-item img {
     width: 50%;
     height: auto;
