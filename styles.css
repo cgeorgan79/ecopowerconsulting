@@ -5,23 +5,28 @@ body {
     padding: 0;
     text-align: center;
 }
+
 header {
     background: #5E2A8C; /* Manchester Business School purple */
     color: white;
     padding: 10px;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 .service-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
@@ -44,32 +49,43 @@ nav ul li a {
 }
 
 .service h2 {
-            color: #4B0082;
-        }
+    color: #4B0082;
+}
 
-  .service a {
-            text-decoration: none;
-            color: #4B0082;
-            font-weight: bold;
-        }
+.service a {
+    text-decoration: none;
+    color: #4B0082;
+    font-weight: bold;
+}
+
 .service p {
     text-align: center; /* Centers text */
     margin: 10px 0; /* Adds some spacing */
 }
+
 .service img {
     max-width: 80%; /* Ensures it doesn’t overflow */
     height: auto;
     border-radius: 8px;
 }
+
 .service-item img {
     width: 50%;
     height: auto;
     border-radius: 8px;
 }
-  /* Responsive Design */
-        @media (max-width: 768px) {
-            .service-grid {
-                grid-template-columns: 1fr; /* Switch to single column on small screens */
-            }
-        }
 
+/* Add class for equal height */
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures text aligns properly */
+    height: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: 1fr; /* Switch to single column on small screens */
+    }
+}
