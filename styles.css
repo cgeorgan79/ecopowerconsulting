@@ -34,14 +34,13 @@ nav ul li a {
 .service {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures proper spacing */
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center; /* Centers content horizontally */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
     text-align: center;
-    height: 100%; /* Ensures equal height */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 300px; /* Ensures equal height */
 }
 
 .service h2 {
@@ -58,7 +57,7 @@ nav ul li a {
     margin: 10px 0; /* Adds some spacing */
 }
 .service img {
-    width: 50%; /* Keeps images proportional */
+    max-width: 80%; /* Ensures it doesn’t overflow */
     height: auto;
     border-radius: 8px;
 }
