@@ -70,11 +70,13 @@ nav ul li a {
 }
 
 .service-item img {
-    width: 50%;
-    height: auto;
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 200px; /* Limits the width to a maximum value */
+    max-height: 200px; /* Limits the height to a maximum value */
+    object-fit: cover; /* Ensures the image covers the area without distorting */
     border-radius: 8px;
 }
-
 /* Add class for equal height */
 .service-item {
     display: flex;
