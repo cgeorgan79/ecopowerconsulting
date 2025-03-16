@@ -22,29 +22,23 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
+}
+.service {
+    flex: 1;
+    min-width: 300px;
     padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
 }
 .service-item img {
     width: 50%;
     height: auto;
     border-radius: 8px;
 }
-.services-container {
-    display: flex;
-    flex-wrap: wrap; /* Ensures responsiveness */
-    justify-content: space-between; /* Align items properly */
-    gap: 20px; /* Space between items */
-}
 
-.service {
-    flex: 1; /* Makes sure each service block takes equal space */
-    min-width: 300px; /* Prevents items from shrinking too much */
-    padding: 20px;
-    background-color: #f9f9f9; /* Optional styling */
-    border-radius: 10px;
-    text-align: center;
-}
