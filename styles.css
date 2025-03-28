@@ -11,6 +11,37 @@ header {
     color: white;
     padding: 10px;
 }
+#hero {
+    width: 60%; /* Limits the width to 60% of the page */
+    margin: 0 auto; /* Centers the section */
+    text-align: center; /* Centers text inside */
+    padding: 20px; /* Adds spacing */
+}
+
+#hero h2 {
+    font-size: 2em; /* Adjusts heading size */
+}
+
+#hero p {
+    font-size: 1.2em; /* Makes text slightly larger for readability */
+    line-height: 1.6; /* Improves text spacing */
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a0dad; /* Adjusted to match your purple theme */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.cta:hover {
+    background-color: #5a0ba5; /* Slightly darker purple on hover */
+}
+
 
 nav ul {
     list-style: none;
