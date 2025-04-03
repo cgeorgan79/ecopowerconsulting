@@ -15,7 +15,7 @@
 .logo {
     position: absolute;
     top: 10px; /* Adjust to match the header padding */
-    left: 20px; /* Adjust to provide some space from the left edge */
+    left: 40px; /* Adjust to provide some space from the left edge */
     height: 130px; /* Increased height for better visibility */
     width: auto; /* Maintain the aspect ratio */
 }
