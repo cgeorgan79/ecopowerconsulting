@@ -19,6 +19,10 @@ header {
     height: 80px; /* Adjust height as needed */
     z-index: 1000; /* Keeps it above other elements */
 }
+.logo-container {
+    display: flex;
+    align-items: center;
+}
 .logo-container img {
     height: 20px; /* Adjust size */
     width: auto;
