@@ -16,7 +16,7 @@
     position: absolute;
     top: 10px; /* Adjust to match the header padding */
     left: 40px; /* Adjust to provide some space from the left edge */
-    height: 50px; /* Increased height for better visibility */
+    height: 30px; /* Increased height for better visibility */
     width: auto; /* Maintain the aspect ratio */
 }
 h1 {
