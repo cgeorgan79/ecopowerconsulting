@@ -9,7 +9,7 @@
  header {
      background: #5E2A8C; /* Manchester Business School purple */
      color: white;
-    padding: 20px; /* Adjusted padding for better alignment */
+    padding: 10px; /* Adjusted padding for better alignment */
     position: relative; /* Allow positioning the logo */
  }
 .logo {
