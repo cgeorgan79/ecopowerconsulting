@@ -15,7 +15,7 @@
     position: absolute;
     top: 10px; /* Adjust to match the header padding */
     left: 20px; /* Adjust to provide some space from the left edge */
-    height: 30px; /* Adjust logo size */
+    height: 50px; /* Adjust logo size */
 }
 h1 {
     margin-left: 100px; /* Move the heading slightly to the right to make space for the logo */
