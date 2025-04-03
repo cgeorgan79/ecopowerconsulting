@@ -13,7 +13,7 @@
     position: relative; /* Allow positioning the logo */
  }
 .logo {
-    /*position: absolute;*/
+    position: absolute;
     top: 10px; /* Adjust to match the header padding */
     left: 40px; /* Adjust to provide some space from the left edge */
     height: 30px; /* Increased height for better visibility */
