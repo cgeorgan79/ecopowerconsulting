@@ -7,9 +7,16 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
     background: #5E2A8C; /* Manchester Business School purple */
     color: white;
     padding: 10px;
+}
+.logo-container img {
+    height: 60px; /* Adjust size as needed */
+    width: auto;
 }
 #hero {
     width: 60%; /* Limits the width to 60% of the page */
