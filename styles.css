@@ -67,6 +67,7 @@ nav ul li a:hover {
 .service-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
     gap: 20px; /* Adds spacing between grid items */
     max-width: 900px; /* Adjust this as needed */
     margin: 0 auto; /* Centers the grid */
