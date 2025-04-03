@@ -20,7 +20,7 @@ header {
     z-index: 1000; /* Keeps it above other elements */
 }
 .logo-container img {
-    height: 60px; /* Adjust size as needed */
+    height: 10px; /* Adjust size as needed */
     width: auto;
 }
 #hero {
